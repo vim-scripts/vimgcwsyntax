@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3173
+
+This is a syntax file for Google Code Wiki, supporting highlighting of main features of Google Code Wiki, like:
+
+* Formating (bold, emphasis etc.)
+* Code text
+* Block links
+* Google Code Wiki pragmas
+* Titles
+* Folding between sections and in code block
+
+Besides syntax and folding features, it has a powerful function for the formatexpr option. Just :set formatexpr=googlecodewiki#FormatExpr() and you will be able to format your texts without breaking link blocks or quote blocks. This features can be turned off with global variables.
+
+You might want to follow its development on its Google Code page: http://code.google.com/p/vimgcwsyntax/
